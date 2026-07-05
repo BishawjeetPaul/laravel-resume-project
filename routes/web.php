@@ -26,6 +26,6 @@ Route::get('/portfolio', function () {
 })->name('portfolio');
 
 
-Route::get('/contact', [ContactController::class, 'show']);
-Route::get('/services', [ServiceController::class, 'show']);
+Route::get('/contact', [ContactController::class, 'show'])->name('contact');
+Route::get('/services', [ServiceController::class, 'show'])->name('services');
 
