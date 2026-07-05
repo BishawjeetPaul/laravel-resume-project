@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sidebar.css') }}">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="{{ asset('css/all.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap">

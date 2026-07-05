@@ -31,6 +31,11 @@
                     </p>
                 </div>
             </div>
+            <div class="text-center">
+                <a href="{{ route('contact') }}" class="btn btn-outline-warning mx-4 my-4">Contact Me</a>
+                <a href="{{ route('contact') }}" class="btn btn-outline-info">Hire Me</a>
+                <br>
+            </div>
         </div>
     </x-slot>
 </x-layout>
